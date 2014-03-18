@@ -1,8 +1,8 @@
 {
   "name": "date-time-string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "date-time-string",
-  "main": "index.js",
+  "main": "date-time.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
