@@ -2,7 +2,7 @@
 
 // USAGE:
 
-// var DateTime = require('date-time');
+// var DateTime = require('./date-time');
 // var toDateTimeString = DateTime.toDateTimeString;
 // var toDateString = DateTime.toDateString;
 // var toTimeString = DateTime.toTimeString;
@@ -10,12 +10,12 @@
 // DateTime.extendDateToDateTimeString();
 // DateTime.extendDateToString();
 
-// var toDateTimeString = require('date-time').toDateTimeString;
-// var toDateString = require('date-time').toDateString;
-// var toTimeString = require('date-time').toTimeString;
+// var toDateTimeString = require('./date-time').toDateTimeString;
+// var toDateString = require('./date-time').toDateString;
+// var toTimeString = require('./date-time').toTimeString;
 
-// require('date-time').extendDateToDateTimeString();
-// require('date-time').extendDateToString();
+// require('./date-time').extendDateToDateTimeString();
+// require('./date-time').extendDateToString();
 
 'use strict';
 
