@@ -1,11 +1,8 @@
 {
   "name": "date-time-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "date-time-string",
   "main": "date-time.js",
-  "scripts": {
-    "test": "cd test && node date-time-test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/LightSpeedWorks/date-time-string.git"
@@ -15,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/LightSpeedWorks/date-time-string/issues"
   },
-  "homepage": "https://github.com/LightSpeedWorks/date-time-string"
+  "homepage": "https://github.com/LightSpeedWorks/date-time-string#readme",
+  "scripts": {
+    "test": "cd test && node date-time-test"
+  }
 }
