@@ -4,7 +4,7 @@ var dt = new Date();
 console.log('new Date()');
 console.log('          ' + dt);
 
-var DateTime = require('../date-time');
+var DateTime = require('../lib/date-time');
 var toDateTimeString = DateTime.toDateTimeString;
 var toDateString = DateTime.toDateString;
 var toTimeString = DateTime.toTimeString;
