@@ -1,0 +1,13 @@
+<script src="../lib/date-time.js"></script>
+<script>
+(function () {
+  // console.log redefine for web browser test.
+  var logOrg = console.log;
+  console.log = function logNew() {
+    logOrg.apply(console, arguments);
+    document.writeln('<pre>' + [].slice.call(arguments).join(' ') + '</pre>');
+  };
+  console.log('new console.log has defined for web browser test.');
+})();
+</script>
+<script src="date-time-test.js"></script>
