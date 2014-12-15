@@ -21,18 +21,17 @@ http://lightspeedworks.github.io/date-time-string/lib/date-time.js
 
 ```js
 var DateTime = require('date-time-string');
-var toDateTimeString = DateTime.toDateTimeString;
-var toDateString     = DateTime.toDateString;
-var toTimeString     = DateTime.toTimeString;
 
-console.log(toDateTimeString());
-console.log(toDateString());
-console.log(toTimeString());
+console.log(DateTime.toDateTimeString());   // 2014-12-15 21:58:56.450
+console.log(DateTime.toDateString());       // 2014-12-15
+console.log(DateTime.toTimeString());       // 21:58:56.450
+console.log(DateTime.toHttpDate());         // Mon, 15 Dec 2014 12:58:56 GMT
 
 var d = new Date;
-console.log(toDateTimeString(d));
-console.log(toDateString(d));
-console.log(toTimeString(d));
+console.log(DateTime.toDateTimeString(d));  // 2014-12-15 21:58:56.450
+console.log(DateTime.toDateString(d));      // 2014-12-15
+console.log(DateTime.toTimeString(d));      // 21:58:56.450
+console.log(DateTime.toHttpDate(d));        // Mon, 15 Dec 2014 12:58:56 GMT
 ```
 
 
@@ -43,11 +42,12 @@ var DateTime = require('date-time-string');
 
 DateTime.extendDateToDateTimeString();
 var d = new Date;
-console.log(d.toDateTimeString());
-console.log(d.toDateString());
-console.log(d.toTimeString());
+console.log(d.toDateTimeString());  // 2014-12-15 21:58:56.450
+console.log(d.toDateString());      // 2014-12-15
+console.log(d.toTimeString());      // 21:58:56.450
+console.log(d.toHttpDate());        // Mon, 15 Dec 2014 12:58:56 GMT
 
-DateTime.extendDateToString();
+DateTime.extendDateToString();      // ***DANGER***
 var d = new Date;
-console.log(d.toString());
+console.log(d.toString());          // 2014-12-15 21:58:56.450
 ```
