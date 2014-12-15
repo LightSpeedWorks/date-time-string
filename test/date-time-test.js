@@ -1,34 +1,33 @@
 // date-time-test.js
 
 var dt = new Date();
-console.log('new Date()');
-console.log('          ' + dt);
+console.log('new Date()\n' +
+            '          ' + dt + '\n');
 
 if (typeof DateTime === 'undefined')
   var DateTime = require('../lib/date-time');
 
-var toDateTimeString = DateTime.toDateTimeString;
-var toDateString = DateTime.toDateString;
-var toTimeString = DateTime.toTimeString;
-console.log('toDateTimeString(new Date())');
-console.log('          ' + toDateTimeString(dt));
-console.log('toDateString(new Date())');
-console.log('          ' + toDateString(dt));
-console.log('toTimeString(new Date())');
-console.log('          ' + toTimeString(dt));
-console.log();
+console.log('DateTime.toDateTimeString(new Date())\n' +
+            '          ' + DateTime.toDateTimeString(dt));
+console.log('DateTime.toDateString(new Date())\n' +
+            '          ' + DateTime.toDateString(dt));
+console.log('DateTime.toTimeString(new Date())\n' +
+            '          ' + DateTime.toTimeString(dt));
+console.log('DateTime.toHttpDate(new Date())\n' +
+            '          ' + DateTime.toHttpDate(dt) + '\n');
 
 DateTime.extendDateToDateTimeString();
-console.log('new Date().toDateTimeString()');
-console.log('          ' + dt.toDateTimeString());
-console.log('new Date().toDateString()');
-console.log('          ' + dt.toDateString());
-console.log('new Date().toTimeString()');
-console.log('          ' + dt.toTimeString());
-console.log();
+console.log('new Date().toDateTimeString()\n' +
+            '          ' + dt.toDateTimeString());
+console.log('new Date().toDateString()\n' +
+            '          ' + dt.toDateString());
+console.log('new Date().toTimeString()\n' +
+            '          ' + dt.toTimeString());
+console.log('new Date().toHttpDate()\n' +
+            '          ' + dt.toHttpDate() + '\n');
 
 DateTime.extendDateToString();
-console.log('new Date().toString()');
-console.log('          ' + dt.toString());
-console.log('new Date()');
-console.log('          ' + dt);
+console.log('new Date().toString()\n' +
+            '          ' + dt.toString());
+console.log('new Date()\n' +
+            '          ' + dt);
