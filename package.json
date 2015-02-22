@@ -1,6 +1,6 @@
 {
   "name": "date-time-string",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Date Time format string",
   "main": "lib/date-time-string.js",
   "repository": {
