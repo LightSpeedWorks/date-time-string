@@ -1,8 +1,8 @@
 {
   "name": "date-time-string",
-  "version": "0.0.6",
-  "description": "date-time-string",
-  "main": "lib/date-time.js",
+  "version": "0.0.7",
+  "description": "Date Time format string",
+  "main": "lib/date-time-string.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/LightSpeedWorks/date-time-string.git"
