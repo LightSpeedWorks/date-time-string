@@ -5,7 +5,7 @@ console.log('new Date()\n' +
             '          ' + dt + '\n');
 
 if (typeof DateTime === 'undefined')
-  var DateTime = require('../lib/date-time-string');
+  var DateTime = require('../date-time-string');
 
 console.log('DateTime.toDateTimeString(new Date())\n' +
             '          ' + DateTime.toDateTimeString(dt));
