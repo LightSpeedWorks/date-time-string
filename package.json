@@ -1,11 +1,11 @@
 {
   "name": "date-time-string",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Date Time format string",
-  "main": "lib/date-time-string.js",
+  "main": "date-time-string.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LightSpeedWorks/date-time-string.git"
+    "url": "LightSpeedWorks/date-time-string"
   },
   "author": "LightSpeedC",
   "license": "MIT",
@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/LightSpeedWorks/date-time-string#readme",
   "scripts": {
-    "test": "cd test && node date-time-test"
+    "test": "cd examples && node date-time-ex"
   }
 }
