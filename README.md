@@ -9,10 +9,10 @@ $ npm install date-time-string
 
 or
 
-http://lightspeedworks.github.io/date-time-string/lib/date-time-string.js
+http://lightspeedworks.github.io/date-time-string/date-time-string.js
 
 ```html
-<script src="http://lightspeedworks.github.io/date-time-string/lib/date-time-string.js"></script>
+<script src="http://lightspeedworks.github.io/date-time-string/date-time-string.js"></script>
 ```
 
 # USAGE:
