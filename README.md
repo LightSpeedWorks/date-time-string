@@ -1,4 +1,4 @@
-[date-time-string](https://www.npmjs.org/package/date-time-string) - npm
+[date-time-string](https://www.npmjs.com/package/date-time-string) - npm
 ====
 
 # INSTALL:
