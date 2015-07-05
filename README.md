@@ -3,6 +3,10 @@
 
 # INSTALL:
 
+[![NPM](https://nodei.co/npm/date-time-string.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-time-string/)
+[![NPM](https://nodei.co/npm-dl/date-time-string.png?height=2)](https://nodei.co/npm/date-time-string/)
+
+
 ```bash
 $ npm install date-time-string
 ```
